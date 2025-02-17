@@ -15,4 +15,8 @@ public class Remote {
     public void turnOff(){
         device.turnOff();
     }
+
+    public void turnOnLight(){
+        device.turnOnLight();
+    }
 }

@@ -12,5 +12,6 @@ public class Main {
         // 使用遥控器控制设备开关
         remoter.turnOn();  // 打开设备
         remoter.turnOff(); // 关闭设备
+        remoter.turnOnLight();
     }
 }

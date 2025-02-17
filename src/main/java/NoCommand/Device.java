@@ -14,4 +14,8 @@ public class Device {
     public void turnOff(){
         System.out.println("Turning off " + deviceName);
     }
+
+    public void turnOnLight(){
+        System.out.println("Turning on the Light of " + deviceName);
+    }
 }

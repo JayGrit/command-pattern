@@ -8,11 +8,14 @@ public class Main {
 
         Command turnOn = new TurnOn(fridge);
         Command turnOff = new TurnOff(fridge);
+        Command turnOnLight = new TurnOnLight(fridge);
 
 
         remoter.setCommand(turnOn);
         remoter.press();
         remoter.setCommand(turnOff);
+        remoter.press();
+        remoter.setCommand(turnOnLight);
         remoter.press();
     }
 }
